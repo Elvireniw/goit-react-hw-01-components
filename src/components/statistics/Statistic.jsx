@@ -7,9 +7,7 @@ const getRandomHexColor = idx =>
     .padStart(6, 0)}`;
 
 export const Statistics = ({ title, stats }) => {
-  const randomColor = {
-    backgroundColor: getRandomHexColor()
-};
+
   return (
     <section className={css.statistics}>
         {title && <h2 className={css.title}>{title}</h2>}
