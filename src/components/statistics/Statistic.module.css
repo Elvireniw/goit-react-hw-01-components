@@ -30,7 +30,9 @@ code {
     max-width: 100%;
     width: 360px;
     border-radius: 3px;
-    /* box-shadow: -1px -1px 1px #fff, 1px 1px 1px #cfd7e4; */
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: -1px -1px 1px #fff, 1px 1px 1px #cfd7e4;
     background-color: #ffffff;
   }
   .title {
