@@ -1,47 +1,55 @@
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .transactionHistoryTable {
-    margin: 0 auto;
-    margin-bottom: 50px;
-    max-width: 70%;
-    width: 70%;
-    border-radius: 3px;
-    box-shadow: -1px -1px 1px #fff, 1px 1px 1px #cfd7e4;
-    background-color: #ffffff;
-  }
-  
-  .tableHead {
-    background-color: #5bbad2;
-    color: #ffffff;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 4000;
-    text-transform: uppercase;
-  }
-  
-  /* .tableBody {
-    background-color: #eeeeee;
-  } */
-  .tableBodyRow {
-    color: #848585;
-    font-size: 12px;
-    text-align: center;
-    background-color: #ffffff;
-  }
-  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.transactionHistoryTable {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 50%;
+  width: 70%;
+  border-radius: 3px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #cfd7e4;
+  background-color: #ffffff;
+}
+
+.tableHead {
+  height: 50px;
+  background-color: #5bbad2;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.tableBodyRow {
+  color: #848585;
+  font-size: 12px;
+  text-align: center;
+}
+
+.tableBodyRow:nth-child(odd) {
+  background: #eeefef;
+}
+
+.tableBodyRow {
+  padding: 10px;
+}
+
+.tableBodyColumn {
+  height: 40px;
+}
