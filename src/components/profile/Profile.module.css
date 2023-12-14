@@ -1,0 +1,112 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  body {
+  background-color: #e8ecf2;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 100%;
+    width: 360px;
+    border-radius: 3px;
+    box-shadow: -1px -1px 1px #fff, 1px 1px 1px #cfd7e4;
+    background-color: #ffffff;
+    
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 16px;
+  }
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding-top: 20px;
+
+  }
+  .name {
+    color: #2a2a2a;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .tag {
+    color: #a5a6a7;
+    margin-bottom: 5px;
+  }
+  .location {
+    color: #a5a6a7;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
+  .statsItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f4f6f9;
+    border-top: 1px solid#e1e1e2;
+  }
+  .label {
+    color: #a5a6a7;
+    font-weight: 400;
+    margin-bottom: 5px;
+    
+  }
+
+  .statsItem:not(:last-child){
+    border-right: 1px solid#e1e1e2;}
+
+  .quantity {
+    color: #2a2a2a;
+    font-size: 16px;
+    font-weight: 700;
+  }
