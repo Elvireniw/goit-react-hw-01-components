@@ -1,0 +1,43 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 0 auto;
+    padding: 8px 0 8px 0;
+    max-width: 100%;
+    width: 360px;
+    border-radius: 3px;
+    box-shadow: -1px -1px 1px #fff, 1px 1px 1px #cfd7e4;
+    background-color: #ffffff;
+  }
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .name {
+    color: #2a2a2a;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .online {
+    display: block;
+    margin-left: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  
+  .offline {
+    display: block;
+    margin-left: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+  }
